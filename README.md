@@ -6,7 +6,7 @@
 
 ## Install
 You can get iwan-java-sdk by two ways:
-1) By cloning the java sdk source code and packaging the jar by "maven install" cmd:
+1) By cloning the java sdk source code and packaging the jar by `maven install` cmd:
 ```bash
 	git clone https://github.com/wandevs/iWan-java-sdk.git
 
@@ -30,7 +30,7 @@ import com.wanchain.iwanj.lib.apis.Wanj;
 ```
 
 ### Initial Wanj instance by default configuration
-If you won't config the URL, that the 3rd parameter is set to "null", the SDK will connect to `"api.wanchain.org:8443"' by default:
+If you won't config the URL, that the 3rd parameter is set to `null`, the SDK will connect to `api.wanchain.org:8443` by default:
 ```bash
 Wanj javaApi = new Wanj(YourApiKey, YourSecretKey, null);
 ```
@@ -51,12 +51,12 @@ Wanj javaApi = new Wanj(YourApiKey, YourSecretKey, option);
 Instead of using the iWan SDK for connecting to the iWan RPC server, a raw WebSocket API can also be used, for more information, please see the documentation [iWan RPC API](https://iwan.wanchain.org/static/apidoc/docs.html). However, we strongly recommend using the iWan SDK.
 
 ### Details about `option`
-The SDK object can accept an `option` object. See below for examples of usage.
+The 3rd parameter `option` is 'Map<String, String>' type. See below for examples of usage.
 
-- `option` {Object}
-  - `socketUrl` {String}  The RPC server URL, default is 'api.wanchain.org:8443'.
-  - `apiFlag` {String} The flag to connect the iWan RPC server, default is 'ws'.
-  - `apiVersion` {String} The RPC method version, default is 'v3'.
+- `option`  Map<String, String> 
+  - key `socketUrl` is mapping the value of the RPC server URL, default is 'api.wanchain.org:8443'.
+  - key `apiFlag` is mapping the value of the flag to connect the iWan RPC server, default is 'ws'.
+  - key `apiVersion`  is mapping the value of the RPC method version, default is 'v3'.
 
 ### ApiKey and SecretKey
 In order to get an `ApiKey`, sign up at [iWan](https://iwan.wanchain.org). Then create a new project to get a new `ApiKey` and `SecretKey` key pair.
