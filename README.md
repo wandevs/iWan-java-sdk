@@ -8,11 +8,11 @@
 You can get iwan-java-sdk by two ways:
 1) By cloning the java sdk source code and packaging the jar by `maven install` cmd:
 ```bash
-	git clone https://github.com/wandevs/iWan-java-sdk.git
+git clone https://github.com/wandevs/iWan-java-sdk.git
 
-	cd wanchain-java-sdk
+cd wanchain-java-sdk
 
-	maven install
+maven install
 ```
 
 2) By downloading the jar we have packaged already: [iWan-java-sdk](examples/lib/iwanj-0.5.0.jar)
@@ -51,7 +51,7 @@ Wanj javaApi = new Wanj(YourApiKey, YourSecretKey, option);
 Instead of using the iWan SDK for connecting to the iWan RPC server, a raw WebSocket API can also be used, for more information, please see the documentation [iWan RPC API](https://iwan.wanchain.org/static/apidoc/docs.html). However, we strongly recommend using the iWan SDK.
 
 ### Details about `option`
-The 3rd parameter `option` is 'Map<String, String>' type. See below for examples of usage.
+The 3rd parameter `option` is `Map<String, String>` type. See below for examples of usage.
 
 - `option`  Map<String, String> 
   - key `socketUrl` is mapping the value of the RPC server URL, default is 'api.wanchain.org:8443'.
