@@ -6,11 +6,11 @@
 
 ## Install
 You can get iwan-java-sdk by two ways:
-1) By cloning the java sdk source code and packaging the jar by "maven install" cmd;
+1) By cloning the java sdk source code and packaging the jar by "maven install" cmd:
 ```bash
 	git clone https://github.com/wandevs/iWan-java-sdk.git
 
-	cd wanchain-js-sdk
+	cd wanchain-java-sdk
 
 	maven install
 ```
@@ -18,7 +18,8 @@ You can get iwan-java-sdk by two ways:
 2) By downloading the jar we have packaged already: [iWan-java-sdk](examples/lib/iwanj-0.5.0.jar)
 
 
-then you can integrate the jar into you application. 
+Once you get the sdk, you can integrate it into you application. 
+
 
 ## Initial iWan Java Sdk Instance
 After installation, the iWan SDK can be used to connect to the iWan RPC server to call a method such as `getBalance`. The default config can be used or custom config parameters can be passed using the `option` object.
