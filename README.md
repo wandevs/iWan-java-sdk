@@ -15,9 +15,9 @@ You can get iwan-java-sdk by two ways:
 	maven install
 ```
 
-2) to download the jar we have packaged already;
+2) or Download the jar we have packaged already:
 ```bash
-	git clone https://github.com/wandevs/iWan-java-sdk.git/libs/iwanj.jar
+	https://github.com/wandevs/iWan-java-sdk/blob/master/examples/lib/iwanj-0.5.0.jar
 ```
 
 then you can integrate the jar into you application. 
