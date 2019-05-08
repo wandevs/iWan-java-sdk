@@ -1,4 +1,4 @@
-# iWan-js-sdk
+# iWan-java-sdk
 
 [![GitHub License][license]][license-url]
 
@@ -6,7 +6,7 @@
 
 ## Install
 You can get iwan-java-sdk by two ways:
-1) By cloning the java sdk source code and packaging the jar by "maven package" cmd;
+1) By cloning the java sdk source code and packaging the jar by "maven install" cmd;
 ```bash
 	git clone https://github.com/wandevs/iWan-java-sdk.git
 
@@ -16,9 +16,9 @@ You can get iwan-java-sdk by two ways:
 ```
 
 2) By downloading the jar we have packaged already:
-```bash
+
 [iWan-java-sdk](examples/lib/iwanj-0.5.0.jar)
-```
+
 
 then you can integrate the jar into you application. 
 
@@ -35,6 +35,7 @@ If you won't config the URL, that the 3rd parameter is set to "null", the SDK wi
 ```bash
 Wanj javaApi = new Wanj(YourApiKey, YourSecretKey, null);
 ```
+
 ### Initial Wanj instance by specific configuration
 A different URL can be specified in the `option` object which is subject to [iWan](https://iwan.wanchain.org).
 
@@ -63,17 +64,13 @@ In order to get an `ApiKey`, sign up at [iWan](https://iwan.wanchain.org). Then 
 
 ## Basic Usage
 Both `send()` and `sendAsync()` are supported: 
-
 - `send()` : Api method is called by synchronous mode. 
-
 - `sendAsync()` : Api method is called by asynchronous mode.
 
 
 The method `getBalance` is used as an example below to show the use of `send()` and `sendAsync()` in the iWan-java-SDK :
 
 ### Synchronous Call Mode: send()
-`callback` can be used for asynchronous mode:
-
 ```bash
 try {
 	BigInteger rslt = javaApi.getBalance("WAN", addresses[0]).send();	
@@ -86,12 +83,10 @@ try {
 ```
 
 ### Asynchronous Call Mode: sendAsync()
-`Promise` can be used for synchronous mode:
-
 ```bash
 CompletableFuture<BigInteger> rsltFuture = javaApi.getBalance("WAN", addresses[0]).sendAsync();	
 	
-try {			
+try {
 	BigInteger rslt = rsltFuture.get();	
 	System.out.println("\n[async]getBalance : " + rslt);
 
@@ -108,7 +103,7 @@ try {
 
 ## Documentation
 
-[iWan Java SDK API](https://wanchain.github.io/iWan-java-sdk/) : API details about iWan SDK
+[iWan Java SDK API](https://wanchain.github.io/iWan-java-sdk/) : API details about iWan java sdk
 
 [license]: https://img.shields.io/badge/license-GNUGPL3-blue.svg
 [license-url]:https://github.com/wandevs/iWan-java-sdk/blob/master/LICENSE
