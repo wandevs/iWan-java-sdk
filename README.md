@@ -15,9 +15,7 @@ You can get iwan-java-sdk by two ways:
 	maven install
 ```
 
-2) By downloading the jar we have packaged already:
-
-[iWan-java-sdk](examples/lib/iwanj-0.5.0.jar)
+2) By downloading the jar we have packaged already: [iWan-java-sdk](examples/lib/iwanj-0.5.0.jar)
 
 
 then you can integrate the jar into you application. 

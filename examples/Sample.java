@@ -42,9 +42,9 @@ public class ApiTest
     public static void main( String[] args ) throws IOException
     {
         
-		Properties prop = new Properties();
-		ApiTest api = new ApiTest();
-		InputStream is = api.getClass().getResourceAsStream("/iwan.properties");
+        Properties prop = new Properties();
+        ApiTest api = new ApiTest();
+        InputStream is = api.getClass().getResourceAsStream("/iwan.properties");
 
 		try {
 			prop.load(is);
