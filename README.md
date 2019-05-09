@@ -14,6 +14,7 @@ cd wanchain-java-sdk
 
 maven install
 ```
+There will be a new folder `target`, then you can get the sdk which is named `iwanj-0.5.0.jar`.
 
 2) By downloading the jar we have packaged already: [iWan-java-sdk](examples/lib/iwanj-0.5.0.jar)
 
