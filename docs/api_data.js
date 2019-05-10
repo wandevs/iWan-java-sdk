@@ -5,7 +5,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getBalance",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get balance for a single address.</p>",
     "parameter": {
       "fields": {
@@ -73,7 +73,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getMultiBalances",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get balance for multiple Addresses in a single call.</p>",
     "parameter": {
       "fields": {
@@ -141,7 +141,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getNonce",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the nonce of an account.</p>",
     "parameter": {
       "fields": {
@@ -209,7 +209,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getNonceIncludePending",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the pending nonce of an account.</p>",
     "parameter": {
       "fields": {
@@ -277,7 +277,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getUTXO",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the detail BTC UTXO info for BTC.</p>",
     "parameter": {
       "fields": {
@@ -359,7 +359,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "importAddress",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Send a <code>'import address'</code> command to BTC.</p>",
     "parameter": {
       "fields": {
@@ -427,7 +427,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getBlockByHash",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the block information about a block by block hash on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -495,7 +495,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getBlockByNumber",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the block information about a block by block number on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -563,7 +563,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getBlockNumber",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the current latest block number.</p>",
     "parameter": {
       "fields": {
@@ -624,7 +624,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getBlockTransactionCount",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the number of transaction in a given block by block number or block hash on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -692,7 +692,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "callScFunc",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Call the specific public function of one contract on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -781,7 +781,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getScMap",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the specific public map value of one contract on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -870,7 +870,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getScVar",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the specific public parameter value of one contract on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -952,7 +952,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getCoin2WanRatio",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Coin exchange ratio,such as 1 ETH to 880 WANs in ICO period, the precision is 10000, the ratio is 880*precision = 880,0000. The ratio would be changed according to the market value ratio periodically.</p>",
     "parameter": {
       "fields": {
@@ -1013,7 +1013,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getRegTokens",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the information of tokens which are supported for cross-chain ability.</p>",
     "parameter": {
       "fields": {
@@ -1074,7 +1074,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getStoremanGroups",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the detailed cross-chain storemanGroup info for one cross-chain native coin, like the quota, etc.</p>",
     "parameter": {
       "fields": {
@@ -1135,7 +1135,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getToken2WanRatio",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Token exchange ratio,such as 1 token to 880 WANs, the precision is 10000, the ratio is 880*precision = 880,0000. The ratio would be changed accoring to the market value ratio periodically.</p>",
     "parameter": {
       "fields": {
@@ -1203,7 +1203,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTokenStoremanGroups",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the detail cross-chain storemanGroup info for one specific token contract, like the quota, etc.</p>",
     "parameter": {
       "fields": {
@@ -1271,7 +1271,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getScEvent",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get smart contract event log via topics.</p>",
     "parameter": {
       "fields": {
@@ -1346,7 +1346,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "monitorEvent",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Subscribe to a smart contract event monitor. The server will push the event to the subscriber when the event occurs.</p>",
     "parameter": {
       "fields": {
@@ -1421,7 +1421,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getGasPrice",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get a bigNumber of the current gas price in wei.</p>",
     "parameter": {
       "fields": {
@@ -1482,7 +1482,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getMultiTokenBalance",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Gets token balance for multiple addresses of specified token on Wanchain in a single call.</p>",
     "parameter": {
       "fields": {
@@ -1557,7 +1557,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getMultiTokenInfo",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the information of multiple tokens.</p>",
     "parameter": {
       "fields": {
@@ -1625,7 +1625,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTokenAllowance",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the token allowance for one specific account on one contract for one specific spender account on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -1718,7 +1718,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTokenBalance",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get token balance for a single address of certain token on Wanchain.</p>",
     "parameter": {
       "fields": {
@@ -1793,7 +1793,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTokenInfo",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the info of token contract, like symbol and decimals, on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -1861,7 +1861,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTokenSupply",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get total amount of certain token on Wanchain.</p>",
     "parameter": {
       "fields": {
@@ -1929,7 +1929,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTransByAddress",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get transaction information via the specified address on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -1997,7 +1997,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTransByAddressBetweenBlocks",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get transaction information via the specified address between the specified startBlockNo and endBlockNo on certain chain. <br>Comments: <br>    if no startBlockNo given, startBlockNo will be set to 0; <br>    if no endBlockNo given, endBlockNo will be set to the newest blockNumber.</p>",
     "parameter": {
       "fields": {
@@ -2084,7 +2084,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTransByBlock",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get transaction information in a given block by block number or block hash on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -2152,7 +2152,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTransactionConfirm",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the transaction mined result on certain chain. When the receipt not existed, return directly with 'no receipt was found'; If receipt existed, the receipt will be returned after confirm-block-number blocks.</p>",
     "parameter": {
       "fields": {
@@ -2227,7 +2227,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTransactionReceipt",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the receipt of a transaction by transaction hash on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -2295,7 +2295,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "getTxInfo",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Get the transaction detail via txHash on certain chain.</p>",
     "parameter": {
       "fields": {
@@ -2370,7 +2370,7 @@ define({ "api": [
     "type": "CONNECT",
     "url": "/ws/v3/YOUR-API-KEY",
     "title": "sendRawTransaction",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "<p>Submit a pre-signed transaction for broadcast to certain chain.</p>",
     "parameter": {
       "fields": {

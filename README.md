@@ -16,7 +16,7 @@ maven install
 ```
    Then there will be a new folder `target` in which you can get the sdk named `iwanj-*.*.*.jar`.
 
-2) By downloading the jar we have packaged already: [iWan-java-sdk](examples/lib/iwanj-0.5.0.jar)
+2) By downloading the jar we have packaged already: [iWan-java-sdk](examples/lib/iwanj-1.0.0.jar)
 
 
 Once you get the sdk, you can integrate it into you application. 

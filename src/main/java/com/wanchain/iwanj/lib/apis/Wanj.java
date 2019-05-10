@@ -85,7 +85,7 @@ public class Wanj  extends WsInstance {
     * @apiName getBalance
     * @apiGroup Accounts
     * @api {CONNECT} /ws/v3/YOUR-API-KEY getBalance
-    * @apiVersion 0.5.0
+    * @apiVersion 1.0.0
     * @apiDescription Get balance for a single address.
     *
     * @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -145,7 +145,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getMultiBalances
 	* @apiGroup Accounts
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getMultiBalances
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get balance for multiple Addresses in a single call.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -219,7 +219,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getNonce
 	* @apiGroup Accounts
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getNonce
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the nonce of an account.
 	* 
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -279,7 +279,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getNonceIncludePending
 	* @apiGroup Accounts
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getNonceIncludePending
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the pending nonce of an account.
 	* 
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -338,7 +338,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getUTXO
 	* @apiGroup Accounts
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getUTXO
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the detail BTC UTXO info for BTC.
 	* 
 	* @apiParam (Input Parameter) {String} chainType The chain name that you want to search, should be <code>"BTC"</code>.
@@ -453,7 +453,7 @@ public class Wanj  extends WsInstance {
 	* @apiName importAddress
 	* @apiGroup Accounts
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY importAddress
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Send a <code>'import address'</code> command to BTC.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain name that you want to search, should be <code>"BTC"</code>.
@@ -513,7 +513,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getBlockByHash
 	* @apiGroup Blocks
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getBlockByHash
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the block information about a block by block hash on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain name that you want to search, should be <code>"WAN"</code> or <code>"ETH"</code>.
@@ -633,7 +633,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getBlockByNumber
 	* @apiGroup Blocks
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getBlockByNumber
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the block information about a block by block number on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain name that you want to search, should be <code>"WAN"</code> or <code>"ETH"</code>.
@@ -752,7 +752,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getBlockNumber
 	* @apiGroup Blocks
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getBlockNumber
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the current latest block number.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain name that you want to search, should be <code>"WAN"</code> or <code>"ETH"</code> or <code>"BTC"</code>.
@@ -812,7 +812,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getBlockTransactionCount
 	* @apiGroup Blocks
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getBlockTransactionCount
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the number of transaction in a given block by block number or block hash on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain name that you want to search, should be <code>"WAN"</code> or <code>"ETH"</code>.
@@ -881,7 +881,7 @@ public class Wanj  extends WsInstance {
 	* @apiName callScFunc
 	* @apiGroup Contracts
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY callScFunc
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Call the specific public function of one contract on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -958,7 +958,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getScMap
 	* @apiGroup Contracts
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getScMap
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the specific public map value of one contract on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -1030,7 +1030,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getScVar
 	* @apiGroup Contracts
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getScVar
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the specific public parameter value of one contract on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -1098,7 +1098,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getCoin2WanRatio
 	* @apiGroup CrossChain
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getCoin2WanRatio
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Coin exchange ratio,such as 1 ETH to 880 WANs in ICO period, the precision is 10000, the ratio is 880*precision = 880,0000. The ratio would be changed according to the market value ratio periodically.
 	*
 	* @apiParam (Input Parameter) {String} crossChain The cross-chain native coin name that you want to search, should be <code>"ETH"</code> or <code>"BTC"</code>.
@@ -1155,7 +1155,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getRegTokens
 	* @apiGroup CrossChain
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getRegTokens
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the information of tokens which are supported for cross-chain ability.
 	*
 	* @apiParam (Input Parameter) {String} crossChain The cross-chain name that you want to search, should be <code>"ETH"</code>.
@@ -1262,7 +1262,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getStoremanGroups
 	* @apiGroup CrossChain
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getStoremanGroups
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the detailed cross-chain storemanGroup info for one cross-chain native coin, like the quota, etc.
 	*
 	* @apiParam (Input Parameter) {String} crossChain The cross-chain name that you want to search, should be <code>"ETH"</code> or <code>"BTC"</code>.
@@ -1377,7 +1377,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getToken2WanRatio
 	* @apiGroup CrossChain
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getToken2WanRatio
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Token exchange ratio,such as 1 token to 880 WANs, the precision is 10000, the ratio is 880*precision = 880,0000. The ratio would be changed accoring to the market value ratio periodically.
 	*
 	* @apiParam (Input Parameter) {String} crossChain The cross-chain name that you want to search, should be <code>"ETH"</code>.
@@ -1436,7 +1436,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTokenStoremanGroups
 	* @apiGroup CrossChain
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTokenStoremanGroups
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the detail cross-chain storemanGroup info for one specific token contract, like the quota, etc.
 	*
 	* @apiParam (Input Parameter) {String} crossChain The cross-chain name that you want to search, should be <code>"ETH"</code>.
@@ -1559,7 +1559,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getScEvent
 	* @apiGroup Events
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getScEvent
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get smart contract event log via topics.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -1680,7 +1680,7 @@ public class Wanj  extends WsInstance {
 	* @apiName monitorEvent
 	* @apiGroup Events
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY monitorEvent
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Subscribe to a smart contract event monitor. The server will push the event to the subscriber when the event occurs. 
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -1788,7 +1788,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getGasPrice
 	* @apiGroup Status
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getGasPrice
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get a bigNumber of the current gas price in wei.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -1846,7 +1846,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getMultiTokenBalance
 	* @apiGroup Tokens
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getMultiTokenBalance
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Gets token balance for multiple addresses of specified token on Wanchain in a single call.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>, default: <code>"WAN"</code>.
@@ -1943,7 +1943,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getMultiTokenInfo
 	* @apiGroup Tokens
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getMultiTokenInfo
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the information of multiple tokens.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -2036,7 +2036,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTokenAllowance
 	* @apiGroup Tokens
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTokenAllowance
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the token allowance for one specific account on one contract for one specific spender account on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -2106,7 +2106,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTokenBalance
 	* @apiGroup Tokens
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTokenBalance
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get token balance for a single address of certain token on Wanchain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>, default: <code>"WAN"</code>.
@@ -2172,7 +2172,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTokenInfo
 	* @apiGroup Tokens
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTokenInfo
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the info of token contract, like symbol and decimals, on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -2243,7 +2243,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTokenSupply
 	* @apiGroup Tokens
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTokenSupply
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get total amount of certain token on Wanchain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>. 
@@ -2315,7 +2315,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTransByAddress
 	* @apiGroup Transactions
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTransByAddress
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get transaction information via the specified address on certain chain.
 	*
 	* @apiParam (Input Parameter){String} chainType The chain name that you want to search, should be <code>"WAN"</code>.
@@ -2445,7 +2445,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTransByAddressBetweenBlocks
 	* @apiGroup Transactions
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTransByAddressBetweenBlocks
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get transaction information via the specified address between the specified startBlockNo and endBlockNo on certain chain.
 	* <br>Comments:
 	* <br>&nbsp;&nbsp;&nbsp;&nbsp;if no startBlockNo given, startBlockNo will be set to 0;
@@ -2587,7 +2587,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTransByBlock
 	* @apiGroup Transactions
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTransByBlock
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get transaction information in a given block by block number or block hash on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain name that you want to search, should be <code>"WAN"</code>.
@@ -2724,7 +2724,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTransactionConfirm
 	* @apiGroup Transactions
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTransactionConfirm
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the transaction mined result on certain chain. 
 	* When the receipt not existed, return directly with 'no receipt was found';
 	* If receipt existed, the receipt will be returned after confirm-block-number blocks.
@@ -2839,7 +2839,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTransactionReceipt
 	* @apiGroup Transactions
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTransactionReceipt
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the receipt of a transaction by transaction hash on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain being queried, currently supports <code>"WAN"</code> and <code>"ETH"</code>.
@@ -2953,7 +2953,7 @@ public class Wanj  extends WsInstance {
 	* @apiName getTxInfo
 	* @apiGroup Transactions
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY getTxInfo
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Get the transaction detail via txHash on certain chain.
 	*
 	* @apiParam (Input Parameter) {String} chainType The chain name that you want to search, should be <code>"WAN"</code> or <code>"ETH"</code> or <code>"BTC"</code>.
@@ -3070,7 +3070,7 @@ public class Wanj  extends WsInstance {
 	* @apiName sendRawTransaction
 	* @apiGroup Transactions
 	* @api {CONNECT} /ws/v3/YOUR-API-KEY sendRawTransaction
-	* @apiVersion 0.5.0
+	* @apiVersion 1.0.0
 	* @apiDescription Submit a pre-signed transaction for broadcast to certain chain.
 	* 
 	* @apiParam (Input Parameter) {String} chainType The chain name that you want to search, should be <code>"WAN"</code> or <code>"ETH"</code> or <code>"BTC"</code>.
